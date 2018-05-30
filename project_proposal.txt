@@ -1,0 +1,25 @@
+Organisation
+My organisation is a technology centre of a multinational financial company. It develops software, and does software engineering operations, for the company. It draws its employees from diverse cultures all over the world, and has a strong emphasis on team work and collaboration. Team composition is continually changing. Team building is a continuous challenge.
+
+Problem
+One of the software teams holds a team-building lunch every two weeks, called PotLuck!, with different team members cooking the food for the lunch on each occasion. More than one cook at a time can cook for each PotLuck! Team building like this is a key business process, but it needs to run smoothly and successfully without too much administrative overhead. Not all team members participate in PotLuck!
+
+The organisers of PotLuck! are considering using a software system to help them roster who should cook for each PotLuck!, and which cuisine they should cook. The objective is to space out who cooks, know how many to cook for, and to vary the cuisine and provide for special dietary requirements related to health or faith.
+
+The system would hold data on which cuisines each cook specialises in, in priority order. It would also hold data on any special dietary requirements of PotLuck! diners, arising from health considerations, or faith or other conviction.
+
+The system would need data on which participants were available for each PotLuck! This could be sourced from company calendars.
+
+Key processes
+Register cooks and diners
+Track which diners will attend each PotLuck!
+Roster which cooks should cook each PotLuck!
+Decide which cusines should be served at each PotLuck!
+Consider diners dietary requirements, arising from faith or health reasons.
+
+Key stakeholders
+Business unit Director
+PotLuck! owner
+PotLuck! organisers
+PotLuck! cooks
+PotLuck! diners
