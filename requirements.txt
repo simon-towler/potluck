@@ -131,7 +131,7 @@ Requirement no.: R008
 
 Description: The details of each past PotLuck! lunch must be editable.
 
-Rationale: To allow any information stored by the system to be corrected.
+Rationale: To allow any information stored by the system to be corrected. (Without correct information about recent PotLuck! lunches, the system cannot make good rostering decisions about the next one.)
 
 Source: System author
 
@@ -145,5 +145,22 @@ History: 29/05/2018
 
 ==========================================================================================
 
+Requirement no.: R009
+
+Description: The system shall store no personally identifiable information.
+
+Rationale: To protect member privacy.
+
+Source: System author
+
+Fit criteria: No member is identified by name. Instead they are identified by a unique member number. The data held for members can not be combined, in itself or with other data, to identify the members.
+
+Dependencies: none
+
+Conflicts: none
+
+History: 30/05/2018
+
+==========================================================================================
 
 
