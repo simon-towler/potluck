@@ -1,0 +1,19 @@
+PotLuck! USE CASES
+===================
+
+NAME, IDENTIFIER, VERSION: 
+Roster next Potluck!, UC 01, Version 1.0 
+
+INITIATOR: 
+PotLuck! organizer 
+
+GOAL: 
+to obtain a printed account statement 
+
+ASSUMPTIONS: 
+none
+
+MAIN SCENARIO: 
+The actor starts the system. The system outputs a roster for the next PotLuck!
+
+==========================================================================================
