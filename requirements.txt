@@ -1,0 +1,149 @@
+PotLuck! Rostering System: requirements document
+
+==========================================================================================
+Requirement no.: R001
+
+Description: The system must be able to record the details of a PotLuck! member.
+
+Rationale: So that it can know which cuisines they cook, what their dietary requirements are, and so it can access their calendar. This information is needed to roster who will cook each PotLuck! meal.
+
+Source: System author.
+
+Fit criteria: For each member the system can record: a unique member number; a primary cuisine; an optional secondary cuisine; a list of their dietary requirements; a link to the member’s calendar.
+
+Dependencies: none
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R002
+
+Description: For the date of the next PotLuck! lunch, the system must intelligently propose the cooks for it.
+
+Rationale: To help share the cooking burden fairly, and ensure variety in the cuisine served at PotLuck!, while providing a meal for all dietary requirements present.
+
+Source: System author
+
+Fit criteria: For the next PotLuck! meal, the system will propose a set of cooks who are available to cook for that date, and who can provide cuisine that is different from recent PotLucks!, and suitable for the dietary requirements of all diners who will be present. 
+
+Dependencies: R001, R003, R006
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R003
+
+Description: The system must keep a record of who cooked for each PotLuck! lunch, and which cuisines they cooked.
+
+Rationale: The system must remember these facts, so that it can spread the burden of cooking fairly between cooks, and vary the cuisine offered.
+
+Source: System author
+
+Fit criteria: For each PotLuck! date in the past, the system has a record of who cooked, and what the cuisines were.
+
+Dependencies: R001
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R004
+
+Description: For the next PotLuck! lunch, the system will give a breakdown of the numbers to cook for, by cuisine.
+
+Rationale: So the cooks can know how many to cook for, and how much of each cuisine to cook.
+
+Source: System author
+
+Fit criteria: The numbers to cook for add up to the total numbers of cooks and diners available for the given date. The breakdown of numbers by cuisines matches the dietary requirements of the cooks and diners available for the given date.
+
+Dependencies: R001, R006
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R005
+
+Description: For each PotLuck! member, the system must be able to access a calendar showing their availability for the next PotLuck! lunch date.
+
+Rationale: The system needs to know who is available on the next date, so it can calculate how many to cook for, and choose who will cook.
+
+Source: System author
+
+Fit criteria: For each PotLuck! member, the system knows if they are available or not available on the next PotLuck! lunch date.
+
+Dependencies: R001, R006
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R006
+
+Description: The system must know the date of the next PotLuck! lunch.
+
+Rationale: So it can take into account which members will be available on that date.
+
+Source: System author
+
+Fit criteria: The system is able to correctly report the date scheduled for the next PotLuck! lunch.
+
+Dependencies: none
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R007
+
+Description: The system will output all the information for the next PotLuck! lunch in a single report.
+
+Rationale: To give PotLuck! organisers and cooks all the information about the next PotLuck! lunch.
+
+Source: System author
+
+Fit criteria: A simple “push-button” request results in a report that includes: the date of the next PotLuck! lunch; the names of the cooks, and which cuisines each will cook; the numbers of the cooks and other diners, broken down by dietary requirements.
+
+Dependencies: R001, R002, R006
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+Requirement no.: R008
+
+Description: The details of each past PotLuck! lunch must be editable.
+
+Rationale: To allow any information stored by the system to be corrected.
+
+Source: System author
+
+Fit criteria: The system allows a user to select the date of a past PotLuck! lunch, retrieve the report for that date, and submit an edited or corrected report in its place.
+
+Dependencies: 
+
+Conflicts: none
+
+History: 29/05/2018
+
+==========================================================================================
+
+
+
