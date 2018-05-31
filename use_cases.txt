@@ -14,6 +14,36 @@ ASSUMPTIONS:
 none
 
 MAIN SCENARIO: 
-The actor starts the system. The system outputs a roster for the next PotLuck!
+The actor starts the system. The system displays a menu of options, including "Roster next PotLuck!" The actor chooses that option. The system displays a roster for the next PotLuck!
 
 ==========================================================================================
+
+NAME, IDENTIFIER, VERSION: 
+Edit previous Potluck!, UC 02, Version 1.0 
+
+INITIATOR: 
+PotLuck! organizer 
+
+GOAL: 
+to correct the record of the previous PotLuck!
+
+ASSUMPTIONS: 
+There was a previous PotLuck!
+
+MAIN SCENARIO: 
+The actor starts the system. The system displays a menu of options, including "Correct previous PotLuck!" The actor chooses that option and the system displays the roster for the previous PotLuck! as an editable form with a "save" button. The actor edits the form and clicks the button. The system updates the record of the previous PotLuck! with the amended details and displays a success message followed by the amended Roster. 
+==========================================================================================
+NAME, IDENTIFIER, VERSION: 
+Add PotLuck! member, UC 03, Version 1.0 
+
+INITIATOR: 
+PotLuck! organizer 
+
+GOAL: 
+to add the details of a new PotLuck! member to the system
+
+ASSUMPTIONS: 
+none
+
+MAIN SCENARIO: 
+The actor starts the system. The system displays a menu of options, including "Add new member". The actor chooses that option. The system displays a form with fields for all the new member's details and a save button. The actor fills in the form and chooses "save". The system creates a record for the new member and displays a success message followed by the new member's details.
